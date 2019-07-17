@@ -6,4 +6,4 @@ print(my_tuble)
 
 set1 = {1, 5, 12, 22, 77, 9}
 set2 = {5, 77, 9, 12, 13, 4, 25}
-print (set1.intersection(set2))
+print(set1.intersection(set2))
