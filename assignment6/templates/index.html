@@ -1,0 +1,47 @@
+<html>
+<header>
+    <title>Create member</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.validationEngine.js"></script>
+    <link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css" />
+</header>
+
+<body>
+    <div style="width: 100%; height:100vh; display: flex;">
+        <form id="contact-form" action="/home" , method="POST" style="margin: 0 auto;">
+            <table>
+                <tr style="text-align: center;">
+                    <td colspan="2">
+                        <h2>Create Member</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type="text" name="name" placeholder="Name" required="true"/></td>
+                </tr>
+                <tr>
+                    <td><label>Surname</label></td>
+                    <td><input type="text" name="surname" placeholder="Surname" required="true"/></td>
+                </tr>
+                <tr>
+                    <td><label>Username</label></td>
+                    <td><input type="text" name="username" placeholder="Username" required="true"/></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" name="email" placeholder="Email" required="true"/></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" name="password" placeholder="Password" required="true" class="validate[required,length[8,100]]"/></td>
+                </tr>
+                <tr style="text-align:center; padding-top:0.5em;">
+                    <td colspan="2"><input type="submit" value="submit" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
