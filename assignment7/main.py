@@ -7,7 +7,7 @@ from wtforms import StringField, PasswordField
 from wtforms.validators import InputRequired, Length
 from wtforms.fields.html5 import EmailField
 
-import pyodbc
+#import pyodbc
 import mysql.connector
 
 login = mysql.connector.connect(
@@ -100,5 +100,3 @@ def form():
 #     login.close()
 #     return "Complete"
 app.run(debug=True)
-
-    
