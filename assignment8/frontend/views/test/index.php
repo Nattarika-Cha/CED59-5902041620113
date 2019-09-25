@@ -1,2 +1,2 @@
-<b> Index action </b>
+<b>Index Action</b>
 <?=$data?>
